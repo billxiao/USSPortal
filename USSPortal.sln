@@ -3,14 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{042AC1A2-6428-4978-8760-9039F6F7000F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{907DBB62-6076-48B8-94E7-BBC2C77662B1}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "USSPortal", "src\USSPortal\USSPortal.xproj", "{72A33030-CDED-4370-9991-23007BDBF8F9}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "USSPortal", "USSPortal\USSPortal.xproj", "{84432C4C-9BFB-4FFB-B2B0-7DDE46B2CA54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72A33030-CDED-4370-9991-23007BDBF8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72A33030-CDED-4370-9991-23007BDBF8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72A33030-CDED-4370-9991-23007BDBF8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72A33030-CDED-4370-9991-23007BDBF8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84432C4C-9BFB-4FFB-B2B0-7DDE46B2CA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84432C4C-9BFB-4FFB-B2B0-7DDE46B2CA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84432C4C-9BFB-4FFB-B2B0-7DDE46B2CA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84432C4C-9BFB-4FFB-B2B0-7DDE46B2CA54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{72A33030-CDED-4370-9991-23007BDBF8F9} = {042AC1A2-6428-4978-8760-9039F6F7000F}
 	EndGlobalSection
 EndGlobal
